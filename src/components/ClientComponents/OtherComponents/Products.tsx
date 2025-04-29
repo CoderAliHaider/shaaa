@@ -59,54 +59,54 @@ const ProductsComponent = () => {
                 1024: { slidesPerView: 3 },
               }}
             >
-        {Products.map((item, index) => (
-  <SwiperSlide key={index} className="!flex !justify-center ">
-    <Link
-      href="#"
-      className="bg-[#000000]/75 border border-[#2a2a2a] rounded-2xl lg:w-[346px] lg:h-[340px] 2xl:w-[386px] 2xl:h-[380px] flex flex-col items-center justify-center overflow-hidden shadow-lg transition-transform  duration-300"
-    >
-      <Image
-        src={item.Image}
-        width={294}
-        height={218}
-        alt={item.Name}
-        className="object-contain mt-4"
-      />
-      <div className="w-full p-5 flex justify-between gap-2  items-center text-center">
-        <div>
-          <h2 className="text-white text-xl md:text-3xl font-semibold  mb-1">
-            {item.Name}
-          </h2>
-          <div className="flex items-center gap-2 text-sm">
-            <span className="flex items-center text-[18px]">
-              <Image
-                src={"/images/fire.png"}
-                alt="calories"
-                width={20}
-                height={20}
-              />
-            </span>
-            <span className="text-white text-xs md:text-base">
-              365 Cal
-            </span>
-          </div>
-        </div>
-        <div className="flex text-xl md:text-3xl items-center text-[#ED3937] gap-1 font-semibold">
-          <span>
-            <Image
-              src={"/images/yen.png"}
-              alt="calories"
-              width={21}
-              height={23}
-            />
-          </span>
-          {item.price}.00
-        </div>
-      </div>
-    </Link>
-  </SwiperSlide>
-))}
-
+              {Products.map((item, index) => (
+                <SwiperSlide key={index} className="!flex !justify-center ">
+                  <Link
+                    href="#"
+                    className="bg-[#000000]/75
+ border border-[#2a2a2a] rounded-2xl lg:w-[346px] lg:h-[340px] 2xl:w-[386px] 2xl:h-[380px] flex flex-col items-center justify-center overflow-hidden shadow-lg transition-transform  duration-300"
+                  >
+                    <Image
+                      src={item.Image}
+                      width={294}
+                      height={218}
+                      alt={item.Name}
+                      className="object-contain mt-4"
+                    />
+                    <div className="w-full p-5 flex justify-between gap-2  items-center text-center">
+                      <div>
+                        <h2 className="text-white text-xl md:text-3xl font-semibold  mb-1">
+                          {item.Name}
+                        </h2>
+                        <div className="flex items-center gap-2 text-sm">
+                          <span className="flex items-center text-[18px]">
+                            <Image
+                              src={"/images/fire.png"}
+                              alt="calories"
+                              width={20}
+                              height={20}
+                            ></Image>
+                          </span>
+                          <span className="text-white text-xs md:text-base">
+                            365 Cal
+                          </span>
+                        </div>
+                      </div>
+                      <div className="flex text-xl md:text-3xl items-center text-[#ED3937] gap-1 font-semibold">
+                        <span className="">
+                          <Image
+                            src={"/images/yen.png"}
+                            alt="calories"
+                            width={21}
+                            height={23}
+                          ></Image>
+                        </span>
+                        {item.price}.00
+                      </div>
+                    </div>
+                  </Link>
+                </SwiperSlide>
+              ))}
             </Swiper>
 
             {/* Custom Navigation Buttons */}
