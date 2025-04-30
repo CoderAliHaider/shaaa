@@ -90,11 +90,11 @@ const ProductsComponent = () => {
             </Swiper>
 
             {/* Custom Navigation Buttons */}
-            <div className="hidden md:block absolute md:left-[-0px] xl:left-[-60px] 2xl:left-[-50px] top-1/2 transform -translate-y-1/2 z-30">
+            <div className="hidden md:block absolute md:left-[-70px]   top-1/2 transform -translate-y-1/2 z-30">
               <button className="swiper-button-prev text-bold text-white  bg-[#231F20] !h-10 !w-10   rounded-full flex items-center justify-center shadow-md"></button>
             </div>
 
-            <div className="hidden md:block absolute md:right-[-0px] xl:right-[-60px] 2xl:right-[-50px] top-1/2 transform -translate-y-1/2 z-30">
+            <div className="hidden md:block absolute md:right-[-70px]  top-1/2 transform -translate-y-1/2 z-30">
               <button className="swiper-button-next text-bold text-white bg-[#231F20] !h-10 !w-10   rounded-full flex items-center justify-center shadow-md"></button>
             </div>
           </div>
