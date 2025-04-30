@@ -3,14 +3,17 @@ import React from "react";
 import Image from "next/image";
 const OnlinePostsComponent = () => {
     return(<>
-            <div className="flex flex-col items-center mt-4 justify-center w-full">
-        <h1 className="text-outline text-center  w-[80%] text-2xl md:text-3xl lg:text-5xl  xl:text-6xl text-[#ED3937] pt-16 pb-2 flex justify-center  font-bold uppercase">
-        Shaaa Moments, Shared Online
-        </h1>
-              <p className=" p-2 font-normal text-[#D1C1C5]  text-center text-[14px] sm:text-[14px] md:text-base lg:text-base xl:text-[24px] leading-relaxed">
-              Join our community
-              </p>
-              <div className="w-full grid md:grid-cols-3 gap-2   mt-4 p-1">
+            <div className="flex flex-col items-center justify-center w-full">
+
+
+
+            <h1 className="text-outline text-center md:w-[70%] xl:w-[85%]   text-[#ED3937] text-2xl md:text-3xl lg:text-4xl  xl:text-5xl 2xl:text-[70px] font-bold pb-3.5 xl:pb-4 2xl:pb-[30px] ">
+            Shaaa Moments, Shared Online
+            </h1>
+            <p className="text-base md:text-xl 2xl:text-2xl  w-full pb-3.5 xl:pb-4  2xl:pb-[30px] flex   justify-center  mt-0 text-[#D1C1C5] text-center">
+            Join our community
+            </p>
+              <div className="w-full grid md:grid-cols-3 gap-2 ">
                 <div className="flex  justify-center">
                   <div className="grid grid-cols-2 gap-2">
                     <div>

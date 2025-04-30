@@ -2,10 +2,12 @@
 
 @layer utilities {
   .text-outline {
-    -webkit-text-stroke: 2px red;
+    -webkit-text-stroke: 1px #ED3937;
     color: transparent;
+       
   }
 }
+
 .swiper-button-prev::after,
 .swiper-button-next::after {
   color: white !important;
@@ -13,34 +15,31 @@
   justify-content: center !important;
   align-items: center !important;
   font-size: 15px !important;
-  /* height: 30px !important;
-  width: 30px !important; */
   background-color:#231F20 !important;
-  /* border: 1px solid white !important; */
-  /* border-radius: 100px !important;
-  padding: 10px !important; */
 }
  
-/* 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: 'MADE TOMMY Outline';
+  src: url('/fonts/Made_Tommy/MADE TOMMY Bold Outline_PERSONAL USE.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@font-face {
+  font-family: 'MADE TOMMY Light';
+  src: url('/fonts/Made_Tommy/MADE TOMMY Light_PERSONAL USE.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: 'MADE TOMMY Bold';
+  src: url('/fonts/Made_Tommy/MADE TOMMY Bold_PERSONAL USE.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
-*/
 body {
-  font-family: 'Open Sans', sans-serif, ;
+  font-family: 'MADE TOMMY Light', sans-serif;
+  h1{
+    
+    font-family: 'MADE TOMMY Outline', sans-serif;
+  }
 }
