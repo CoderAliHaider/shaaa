@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="text-center flex gap-4 md:gap-40 text-xs md:text-sm">
             <Link   href={"tel:549533944"} className="mb-3 flex gap-2 items-center">
               <div>
-            <span  href={"tel:549533944"} className="flex justify-center items-center  h-[30px] w-[30px]  ">
+            <span className="flex justify-center items-center  h-[30px] w-[30px]  ">
               <Image
                 src="/images/phone.svg"
                 alt="Snapchat"
@@ -37,7 +37,7 @@ const Footer = () => {
             </Link>
             <Link href={'mailto:smedia@shaa.com.sa'} className="mb-3 flex gap-2 items-center">
               <div>
-            <span href={"mailto:smedia@shaa.com.sa"} className="flex justify-center items-center  h-[30px] w-[30px]  ">
+            <span className="flex justify-center items-center  h-[30px] w-[30px]  ">
               <Image
                 src="/images/m.svg"
                 alt="Snapchat"
