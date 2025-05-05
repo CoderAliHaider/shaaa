@@ -41,7 +41,6 @@ const HeaderComponent = () => {
         </span>
         <select className="bg-transparent appearance-none outline-none border-0 md:text-[12px] lg:text-[14px] font-medium text-[#3C2013]">
           <option>EN</option>
-          <option>اردو</option>
           <option>العربية</option>
         </select>
       </div>
