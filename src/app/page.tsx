@@ -53,7 +53,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full lg-h[650px] 2xl:h-[735px] bg-[url('/images/Group.png')] bg-cover bg-center  flex items-center justify-center relative">
+        <div className="w-full lg-h[650px] 2xl:h-[735px] bg-[url('/images/Group.png')] bg-cover bg-center pt-10 pb-10 lg:pt-0 lg:pb-0  flex items-center justify-center relative">
           <div className="absolute w-full h-[735px] inset-0 bg-[#000000]/30 z-0"></div>
           <div className="relative z-10 w-[70%] flex flex-col items-center  lg:grid  lg:grid-cols-2   justify-center text-center">
             <div className="xl:mt-[-100px] 2xl:mt-[-200px]">
@@ -119,7 +119,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex justify-start items-center mt-20 lg:mt-0 l h-[500] w-[500] xl:h-[562] 2xl:w-[770] relative  top-[-120px] 2xl:top-[-120px] right-0">
+            <div className="flex justify-start items-center mt-20 lg:mt-0 l w-full h-full md:h-[500] md:w-[500] xl:h-[562] 2xl:w-[770] relative top-[-50px]  lg:top-[-120px] 2xl:top-[-120px] right-0">
               <Image
                 src={"/images/mobiles.png"}
                 alt=""

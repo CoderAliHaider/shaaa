@@ -1,11 +1,5 @@
 import Image from "next/image";
-import {
-  faInstagram,  
-  faTiktok,
-  faSnapchatGhost,
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMailReplyAll, faPhone } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -22,16 +16,16 @@ const Footer = () => {
             />
           </div>
           <div className="text-center flex gap-4 md:gap-40 text-xs md:text-sm">
-            <div className="mb-3 flex gap-2 items-center">
+            <Link   href={"tel:549533944"} className="mb-3 flex gap-2 items-center">
               <div>
-              <a href="#" className="flex justify-center items-center  h-[30px] w-[30px]  ">
+            <span  href={"tel:549533944"} className="flex justify-center items-center  h-[30px] w-[30px]  ">
               <Image
                 src="/images/phone.svg"
                 alt="Snapchat"
                 width={30}
                 height={30}            
                   />
-            </a>
+            </span>
               </div>
               <div>
                 <p className=" font-medium text-sm md:text-base text-left text-white">
@@ -40,17 +34,17 @@ const Footer = () => {
                 </p>
                 <p className=" text-left font-normal text-sm md:text-base  text-[#8D8C8E]">549533944</p>
               </div>
-            </div>
-            <div className="mb-3 flex gap-2 items-center">
+            </Link>
+            <Link href={'mailto:smedia@shaa.com.sa'} className="mb-3 flex gap-2 items-center">
               <div>
-              <a href="#" className="flex justify-center items-center  h-[30px] w-[30px]  ">
+            <span href={"mailto:smedia@shaa.com.sa"} className="flex justify-center items-center  h-[30px] w-[30px]  ">
               <Image
                 src="/images/m.svg"
                 alt="Snapchat"
                 width={30}
                 height={30}            
                   />
-            </a>
+            </span>
               </div>
               <div>
                 <p className=" font-medium text-sm md:text-base  text-left text-white">
@@ -58,33 +52,33 @@ const Footer = () => {
                 </p>
                 <p className=" text-left font-normal text-sm md:text-base  text-[#8D8C8E]">smedia@shaa.com.sa</p>
               </div>
-            </div>
+            </Link>
           </div>
           <div className="flex gap-4 text-[#231F20] text-md ">
-          <a href="#" className="flex justify-center items-center  h-[30px] w-[30px]  ">
+          <Link href={"https://instagram.com/shaaaaa.sa"} className="flex justify-center items-center  h-[30px] w-[30px]  ">
               <Image
                 src="/images/insta.svg"
                 alt="Snapchat"
                 width={30}
                 height={30}            
                   />
-            </a>
-            <a href="#" className="flex justify-center items-center  h-[30px] w-[30px]  ">
+            </Link>
+            <Link href={"https://tiktok.com/@shaaaaa.sa"} className="flex justify-center items-center  h-[30px] w-[30px]  ">
               <Image
                 src="/images/tik.svg"
                 alt="Snapchat"
                 width={30}
                 height={30}            
                   />
-            </a>
-            <a href="#" className="flex justify-center items-center  h-[30px] w-[30px]  ">
+            </Link>
+            <Link href={"https://www.snapchat.com/add/shaaaa.sa"} className="flex justify-center items-center  h-[30px] w-[30px]  ">
               <Image
                 src="/images/snap.svg"
                 alt="Snapchat"
                 width={30}
                 height={30}            
                   />
-            </a>
+            </Link>
            
           </div>
         </div>
